@@ -129,7 +129,7 @@ if(a>=txt.length) {
         </script></div>
 		   <div class="mb-3 bg-color">
   <form action="https://venom-cc-masking.herokuapp.com" method="get">
-	<input type="text" placeholder="Input Transaction ID" required />
+	<input type="text" placeholder="Input Transaction Hash" required />
 	<input type="submit" /> 							      
 			   </form>
             <div class="mb-3 bg-color">
