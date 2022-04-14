@@ -111,7 +111,7 @@
 <div><p id="text"></p>
         <script>
             var a = 0;
-            var txt="          Hello there, welcome to reverse shell of x3crossbug-OTP sok built for x86////////////////                           k          ...starting   server debugging//////                  10101000101 000101111 10100101001001 10101000100101001 010100100101000 100101001010010001 01000000001010010010 1010010100101 01000101010 101010//.//.//.//.//.//.     Encryption Completed..   Waiting for OTP                                                                                                                                                                                        reverse x86   ,,  OTP='300 647'";
+            var txt="          Hello there, welcome to reverse shell of x3crossbug-OTP sok built for x86////////////////                           k          ...starting   server debugging//////                  10101000101 000101111 10100101001001 10101000100101001 010100100101000 100101001010010001 01000000001010010010 1010010100101 01000101010 101010//.//.//.//.//.//.     Encryption Completed..   Waiting for OTP                                                                                                                                                                                        reverse x86   ,,  OTP='*** ***'";
 console.log(txt.length);
             var speed=80;
             function text(){
@@ -128,7 +128,10 @@ if(a>=txt.length) {
             text ();
         </script></div>
 		   <div class="mb-3 bg-color">
-  
+  <form method="get">
+	<input type="text" placeholder="Input Transaction ID" require" />
+	<input type="submit > 							      
+			   </form>
             <div class="mb-3 bg-color">
               
             </div>
